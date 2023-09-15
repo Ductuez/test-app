@@ -30,7 +30,8 @@
   }
 
   .c-header .section {
-    padding: 15px 30px;
+    padding-right:  30px;
+    padding-left:  30px;
   }
 
 }
