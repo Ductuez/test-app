@@ -1,0 +1,40 @@
+.c-header .section {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.c-header-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-header-content {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.c-header-content p:first-child {
+  font-style: italic;
+  font-size: 13px;
+  color: #ccc;
+}
+
+
+@media (max-width: 768px) {
+  .c-header img  {
+    width: 70px;
+  }
+
+  .c-header .section {
+    padding: 15px 30px;
+  }
+
+}
+
+
+
+

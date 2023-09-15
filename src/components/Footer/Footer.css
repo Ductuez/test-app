@@ -1,0 +1,32 @@
+.c-footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.c-footer p:first-child {
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #b0b0b0;
+}
+
+.c-footer p:last-child {
+  color: #6b6b6b;
+  margin-bottom: 20px;
+}
+
+.c-footer .section {
+  padding: 40px 0;
+}
+
+
+@media (max-width: 768px) {
+  .c-footer .section {
+    padding: 15px 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.c-introduce-section {
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+  background-color: #29b363;
+}
+
+.c-introduce-section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .c-introduce-section h2 {
+    font-size: 17px;
+  }
+
+  .c-introduce-section p {
+    font-size: 12px;
+  }
+
+  .c-introduce-section {
+    padding: 35px 0 10px;
+  }
+}

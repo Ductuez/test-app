@@ -1,0 +1,45 @@
+.c-joker-section-hr {
+  width: 800px;
+  margin: 0 auto;
+  opacity: 0.3;
+}
+
+
+.c-joker-section .section {
+  padding: 70px 0 200px;
+}
+
+.c-joker-section {
+  background-color: #fcfcfc;
+}
+
+.c-joker-section-content-joke {
+  min-height: 150px;
+  margin-bottom: 50px;
+  text-align: left;
+  padding: 0 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.c-joker-section-group-btn {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 100px;
+}
+
+.c-joker-section .btn:first-child {
+  margin-right: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .c-joker-section-hr {
+    display: none;
+  }
+
+  .c-joker-section-group-btn {
+    padding: 100px 0 85px;
+  }
+ 
+}
