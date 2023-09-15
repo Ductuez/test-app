@@ -34,6 +34,10 @@
     padding-left:  30px;
   }
 
+  .c-header-content p:first-child {
+    font-style: normal;
+  }
+
 }
 
 
